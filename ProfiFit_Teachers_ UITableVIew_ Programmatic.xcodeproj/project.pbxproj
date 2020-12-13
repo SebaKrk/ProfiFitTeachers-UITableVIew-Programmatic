@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		93B77E272584E705007CCA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E262584E705007CCA42 /* AppDelegate.swift */; };
 		93B77E292584E705007CCA42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E282584E705007CCA42 /* SceneDelegate.swift */; };
-		93B77E2B2584E705007CCA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E2A2584E705007CCA42 /* ViewController.swift */; };
-		93B77E2E2584E705007CCA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B77E2C2584E705007CCA42 /* Main.storyboard */; };
 		93B77E302584E708007CCA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B77E2F2584E708007CCA42 /* Assets.xcassets */; };
 		93B77E332584E708007CCA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B77E312584E708007CCA42 /* LaunchScreen.storyboard */; };
+		93B77E3C2584E739007CCA42 /* ProfiFitTeachersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E3B2584E739007CCA42 /* ProfiFitTeachersList.swift */; };
+		93B77E402584EC4F007CCA42 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E3F2584EC4F007CCA42 /* Cells.swift */; };
+		93B77E442584ECDF007CCA42 /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E432584ECDF007CCA42 /* TeacherCell.swift */; };
+		93B77E472584EF93007CCA42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E462584EF93007CCA42 /* Constants.swift */; };
+		93B77E4E2584F1BE007CCA42 /* TeacherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B77E4D2584F1BE007CCA42 /* TeacherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93B77E232584E705007CCA42 /* ProfiFit_Teachers_ UITableVIew_ Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProfiFit_Teachers_ UITableVIew_ Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B77E262584E705007CCA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B77E282584E705007CCA42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93B77E2A2584E705007CCA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93B77E2D2584E705007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B77E2F2584E708007CCA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B77E322584E708007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B77E342584E708007CCA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B77E3B2584E739007CCA42 /* ProfiFitTeachersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiFitTeachersList.swift; sourceTree = "<group>"; };
+		93B77E3F2584EC4F007CCA42 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		93B77E432584ECDF007CCA42 /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		93B77E462584EF93007CCA42 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93B77E4D2584F1BE007CCA42 /* TeacherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		93B77E252584E705007CCA42 /* ProfiFit_Teachers_ UITableVIew_ Programmatic */ = {
 			isa = PBXGroup;
 			children = (
+				93B77E3E2584EC26007CCA42 /* Extensions */,
 				93B77E262584E705007CCA42 /* AppDelegate.swift */,
 				93B77E282584E705007CCA42 /* SceneDelegate.swift */,
-				93B77E2A2584E705007CCA42 /* ViewController.swift */,
-				93B77E2C2584E705007CCA42 /* Main.storyboard */,
+				93B77E512584F1C3007CCA42 /* Model */,
+				93B77E4B2584F195007CCA42 /* View */,
+				93B77E492584F185007CCA42 /* Controller */,
 				93B77E2F2584E708007CCA42 /* Assets.xcassets */,
 				93B77E312584E708007CCA42 /* LaunchScreen.storyboard */,
 				93B77E342584E708007CCA42 /* Info.plist */,
 			);
 			path = "ProfiFit_Teachers_ UITableVIew_ Programmatic";
+			sourceTree = "<group>";
+		};
+		93B77E3E2584EC26007CCA42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93B77E3F2584EC4F007CCA42 /* Cells.swift */,
+				93B77E462584EF93007CCA42 /* Constants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93B77E492584F185007CCA42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93B77E3B2584E739007CCA42 /* ProfiFitTeachersList.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93B77E4B2584F195007CCA42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93B77E432584ECDF007CCA42 /* TeacherCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93B77E512584F1C3007CCA42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93B77E4D2584F1BE007CCA42 /* TeacherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +167,6 @@
 			files = (
 				93B77E332584E708007CCA42 /* LaunchScreen.storyboard in Resources */,
 				93B77E302584E708007CCA42 /* Assets.xcassets in Resources */,
-				93B77E2E2584E705007CCA42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +177,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B77E2B2584E705007CCA42 /* ViewController.swift in Sources */,
 				93B77E272584E705007CCA42 /* AppDelegate.swift in Sources */,
+				93B77E4E2584F1BE007CCA42 /* TeacherModel.swift in Sources */,
 				93B77E292584E705007CCA42 /* SceneDelegate.swift in Sources */,
+				93B77E3C2584E739007CCA42 /* ProfiFitTeachersList.swift in Sources */,
+				93B77E472584EF93007CCA42 /* Constants.swift in Sources */,
+				93B77E442584ECDF007CCA42 /* TeacherCell.swift in Sources */,
+				93B77E402584EC4F007CCA42 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93B77E2C2584E705007CCA42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93B77E2D2584E705007CCA42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93B77E312584E708007CCA42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
