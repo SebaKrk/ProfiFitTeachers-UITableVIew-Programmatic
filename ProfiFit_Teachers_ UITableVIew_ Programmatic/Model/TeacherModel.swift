@@ -14,6 +14,7 @@ struct TeacherModel {
     var country: UIImage
 }
 
+
 func getTeachers() -> [TeacherModel] {
     let teacher1 = TeacherModel(image: Images.teacherImage1, name: "Adam Ptak", titile: "Mentor", country: CountryFlags.countryFlagGb)
     let teacher2 = TeacherModel(image: Images.teacherImage2, name: "Adrian Markowicz", titile: "Master", country: CountryFlags.countryFlagPl)
